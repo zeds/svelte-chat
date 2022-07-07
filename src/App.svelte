@@ -2,8 +2,8 @@
     import {onMount} from 'svelte';
     import Pusher from 'pusher-js';
 		import io from 'socket.io-client'
-		//let STRAPI_ENDPOINT = 'http://localhost:1337'
-		let STRAPI_ENDPOINT = 'https://code-school.biz:1443'
+		let STRAPI_ENDPOINT = 'http://localhost:1337'
+		//let STRAPI_ENDPOINT = 'https://code-school.biz:1443'
 
 		var socket = io(STRAPI_ENDPOINT);
 
